@@ -7,7 +7,7 @@ def insert_db(value1, value2):
             host = "localhost",
             user = usr,
             password = pswd,
-            database = "campeoesEinvocadores"
+            database = "banco1"
         )
 
         if mydb.is_connected():
